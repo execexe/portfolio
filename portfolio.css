@@ -1,5 +1,6 @@
 body {
 			background-image: linear-gradient(to top, #314545 0%, #5D7979 100%);
+			font-family: "Roboto Slab", serif;
 		}
 
 		a { 
@@ -13,7 +14,7 @@ body {
 			background-color:#3F4040;
 			justify-content: center;
 			width:100%;
-			z-index: 1;
+			z-index: 2;
 			position: fixed;
 
 
@@ -164,7 +165,7 @@ body {
 		    width: 100%;
 		    left: 0;
 		    bottom: 0;
-		    z-index: 2;
+		    z-index: 1;
 		    background-color: white;
 		    overflow: hidden;
 		    transition: 0.2s;
